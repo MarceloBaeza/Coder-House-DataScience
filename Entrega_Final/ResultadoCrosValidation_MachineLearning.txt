@@ -1,0 +1,59 @@
+Numero de PCA 14. Pca Variancia: [0.14914269 0.09972236 0.0828806  0.07263988 0.06964459 0.06154044
+ 0.05618774 0.0549026  0.05244863 0.04907167 0.04878451 0.04557804
+ 0.04517899 0.03780572] Suma:0.9255284591483962
+	 - Modelo KNeighborsClassifier(weights='distance') - 0.6514440321338384. Tiempo de ejecución 3.0877249240875244 segundos.
+	 - Modelo DecisionTreeClassifier(class_weight={1: 3.1382139983909894}, max_depth=14,
+                       random_state=123) - 0.6192412606529756. Tiempo de ejecución 1.048060417175293 segundos.
+	 - Modelo RandomForestClassifier(class_weight='balanced', max_depth=14, n_estimators=200,
+                       random_state=123) - 0.6732482104707126. Tiempo de ejecución 28.427900075912476 segundos.
+	 - Modelo GradientBoostingClassifier(learning_rate=200, max_depth=14, random_state=123) - 0.5003460010471136. Tiempo de ejecución 99.31275987625122 segundos.
+	 - Modelo LGBMClassifier(class_weight='balanced', max_depth=14, n_estimators=200,
+               num_leaves=32, random_state=123) - 0.6693813457788635. Tiempo de ejecución 1.3819949626922607 segundos.
+-----------------------------------------------------------
+Numero de PCA 15. Pca Variancia: [0.14914269 0.09972236 0.0828806  0.07263988 0.06964459 0.06154044
+ 0.05618774 0.0549026  0.05244863 0.04907167 0.04878451 0.04557804
+ 0.04517899 0.03780572 0.03503708] Suma:0.9605655438744222
+	 - Modelo KNeighborsClassifier(weights='distance') - 0.6534449495574715. Tiempo de ejecución 1.6664156913757324 segundos.
+	 - Modelo DecisionTreeClassifier(class_weight={1: 3.1382139983909894}, max_depth=15,
+                       random_state=123) - 0.6242973709342714. Tiempo de ejecución 1.2343206405639648 segundos.
+	 - Modelo RandomForestClassifier(class_weight='balanced', max_depth=15, n_estimators=200,
+                       random_state=123) - 0.6775476049846895. Tiempo de ejecución 29.817837953567505 segundos.
+	 - Modelo GradientBoostingClassifier(learning_rate=200, max_depth=15, random_state=123) - 0.4946932590226501. Tiempo de ejecución 112.7560613155365 segundos.
+	 - Modelo LGBMClassifier(class_weight='balanced', max_depth=15, n_estimators=200,
+               num_leaves=32, random_state=123) - 0.6695067734651349. Tiempo de ejecución 1.2909748554229736 segundos.
+-----------------------------------------------------------
+Numero de PCA 16. Pca Variancia: [0.14914269 0.09972236 0.0828806  0.07263988 0.06964459 0.06154044
+ 0.05618774 0.0549026  0.05244863 0.04907167 0.04878451 0.04557804
+ 0.04517899 0.03780572 0.03503708 0.032913  ] Suma:0.9934785427551409
+	 - Modelo KNeighborsClassifier(weights='distance') - 0.6571924912082624. Tiempo de ejecución 0.6904590129852295 segundos.
+	 - Modelo DecisionTreeClassifier(class_weight={1: 3.1382139983909894}, max_depth=16,
+                       random_state=123) - 0.6330030436998436. Tiempo de ejecución 1.2880430221557617 segundos.
+	 - Modelo RandomForestClassifier(class_weight='balanced', max_depth=16, n_estimators=200,
+                       random_state=123) - 0.6801209647639577. Tiempo de ejecución 38.64752674102783 segundos.
+	 - Modelo GradientBoostingClassifier(learning_rate=200, max_depth=16, random_state=123) - 0.5027266667030365. Tiempo de ejecución 121.4004271030426 segundos.
+	 - Modelo LGBMClassifier(class_weight='balanced', max_depth=16, n_estimators=200,
+               num_leaves=32, random_state=123) - 0.6744310625837303. Tiempo de ejecución 1.355271816253662 segundos.
+-----------------------------------------------------------
+Numero de PCA 17. Pca Variancia: [0.14914269 0.09972236 0.0828806  0.07263988 0.06964459 0.06154044
+ 0.05618774 0.0549026  0.05244863 0.04907167 0.04878451 0.04557804
+ 0.04517899 0.03780572 0.03503708 0.032913   0.00539254] Suma:0.9988710868055528
+	 - Modelo KNeighborsClassifier(weights='distance') - 0.6568967988241905. Tiempo de ejecución 0.5305497646331787 segundos.
+	 - Modelo DecisionTreeClassifier(class_weight={1: 3.1382139983909894}, max_depth=17,
+                       random_state=123) - 0.6350532921863428. Tiempo de ejecución 1.323578119277954 segundos.
+	 - Modelo RandomForestClassifier(class_weight='balanced', max_depth=17, n_estimators=200,
+                       random_state=123) - 0.6803259294622912. Tiempo de ejecución 39.72518515586853 segundos.
+	 - Modelo GradientBoostingClassifier(learning_rate=200, max_depth=17, random_state=123) - 0.505474451268755. Tiempo de ejecución 132.72147011756897 segundos.
+	 - Modelo LGBMClassifier(class_weight='balanced', max_depth=17, n_estimators=200,
+               num_leaves=32, random_state=123) - 0.6749637839961872. Tiempo de ejecución 1.3683314323425293 segundos.
+-----------------------------------------------------------
+Numero de PCA 18. Pca Variancia: [0.14914269 0.09972236 0.0828806  0.07263988 0.06964459 0.06154044
+ 0.05618774 0.0549026  0.05244863 0.04907167 0.04878451 0.04557804
+ 0.04517899 0.03780572 0.03503708 0.032913   0.00539254 0.00112891] Suma:1.0
+	 - Modelo KNeighborsClassifier(weights='distance') - 0.6568433942468821. Tiempo de ejecución 0.5917623043060303 segundos.
+	 - Modelo DecisionTreeClassifier(class_weight={1: 3.1382139983909894}, max_depth=18,
+                       random_state=123) - 0.6370066706051742. Tiempo de ejecución 1.4079673290252686 segundos.
+	 - Modelo RandomForestClassifier(class_weight='balanced', max_depth=18, n_estimators=200,
+                       random_state=123) - 0.6815154676750569. Tiempo de ejecución 40.683769941329956 segundos.
+	 - Modelo GradientBoostingClassifier(learning_rate=200, max_depth=18, random_state=123) - 0.5032341275986958. Tiempo de ejecución 142.966947555542 segundos.
+	 - Modelo LGBMClassifier(class_weight='balanced', max_depth=18, n_estimators=200,
+               num_leaves=32, random_state=123) - 0.6763363550641179. Tiempo de ejecución 1.443619728088379 segundos.
